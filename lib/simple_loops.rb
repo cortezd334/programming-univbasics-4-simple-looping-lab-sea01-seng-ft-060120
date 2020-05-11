@@ -32,8 +32,8 @@ def return_string_array (array)
   count = 0 
   
   while count < array.length do
-    new_array = array.to_s
-    return new_array
+    puts array.to_s
+#    return new_array
     count += 1
   end
 end
